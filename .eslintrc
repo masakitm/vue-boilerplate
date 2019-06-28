@@ -9,10 +9,20 @@
 		"prettier"
 	],
 	"extends": [
-		"prettier",
-		"plugin:vue/strongly-recommended",
-		"airbnb-base"
+		"airbnb-base",
+		"plugin:prettier/recommended",
+		"plugin:vue/strongly-recommended"
 	],
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".js",
+					".jsx"
+				]
+			}
+		}
+	},
 	"rules": {
 		"prettier/prettier": [
 			"error",

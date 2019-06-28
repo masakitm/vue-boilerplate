@@ -1,4 +1,8 @@
 * {
-	color: #999;
 	box-sizing: border-box;
+}
+
+body {
+	color: #666;
+	text-align: center;
 }
