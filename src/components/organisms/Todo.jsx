@@ -1,4 +1,4 @@
-import TodoInputs from './TodoInputs';
+import TodoInputs from '../molecules/TodoInputs';
 import TodoItemList from './TodoItemList';
 
 const labelTexts = {

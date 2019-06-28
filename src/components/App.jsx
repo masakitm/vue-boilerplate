@@ -1,5 +1,5 @@
-import TitleComponent from './Title';
-import Todo from './Todo';
+import TitleComponent from './atoms/Title';
+import Todo from './organisms/Todo';
 
 const messages = {
   title: 'welcome back to vue.js',
