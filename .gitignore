@@ -3,4 +3,4 @@ node_modules
 .vscode
 dist/bundle.js
 *.log
-.lock 
+*.lock 
