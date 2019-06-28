@@ -1,0 +1,26 @@
+{
+	"env": {
+		"browser": true
+	},
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"plugins": [
+		"prettier"
+	],
+	"extends": [
+		"prettier",
+		"plugin:vue/strongly-recommended",
+		"airbnb-base"
+	],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": true,
+				"semi": true,
+				"trailingComma": true
+			}
+		]
+	}
+}
